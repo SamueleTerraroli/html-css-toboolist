@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #F6F8FA;
+}
+
+/**************HEADER**************/
+
+header {
+  height: 70px;
+  background-color: white;
+}
+
+header div img {
+  vertical-align: middle;
+  width: 50px;
+  margin:10px 15px;
+}
+
+header div span {
+  vertical-align: middle;
+  font-size: 2rem;
+
+}
+
+/**************MIDDLE************/
