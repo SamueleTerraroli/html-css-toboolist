@@ -38,7 +38,10 @@ h1 {
 
 }
 
-/**************MIDDLE************/
+/**************MAIN************/
+main {
+  margin-bottom: 30px;
+}
 
 .container {
   max-width: 680px;
@@ -60,6 +63,7 @@ button {
   color: white;
   background-color: #47ACEB ;
   border: none;
+  margin-top: 10px;
 }
 
 button.gray {
@@ -76,6 +80,7 @@ ul {
   list-style: none;
   padding-left: 50px;
   margin: 10px 0;
+  padding-bottom: 5px;
 }
 
 ul.annidato {
@@ -84,17 +89,35 @@ ul.annidato {
 }
 
 ul.annidato span {
-padding: 1px 3px;
-  border: solid 2px;
+  padding: 1px 3px;
+  border: solid 1px;
   border-radius: 50%;
   font-size: 0.7rem;
-  font-style: bold;
+  margin-right: 5px;
   
 }
 
 li {
   margin: 30px 0;
 }
+
+/************list************/
+
+/************badge************/
+
+ul li span.badge {
+  font-size: 0.7rem;
+  padding: 5px 8px;
+  border-radius: 20px;
+  color: white;
+  background-color: #47ACEB ;
+  border: none;
+  
+}
+
+
+/**************MAIN************/
+
 /**************UTILITIES************/
 
 .check {
@@ -105,4 +128,20 @@ li {
 .cross {
   color: #AC7C85;
 
+}
+
+ul li span.badge.goals {
+  background-color: #9E73E3 ;  
+}
+ul li span.badge.recruiting{
+  background-color: #64C2A9 ;  
+}
+ul li span.badge.mobile{
+  background-color: #FC9F2A ;  
+}
+ul li span.badge.website{
+  background-color: #D665A7 ;
+}
+ul li span.badge.sales{
+  background-color: #AFCB1C ;  
 }
