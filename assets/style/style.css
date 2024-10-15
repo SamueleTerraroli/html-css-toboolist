@@ -14,6 +14,7 @@ body {
 header {
   height: 70px;
   background-color: white;
+  margin-bottom: 30px;
 }
 
 header div img {
@@ -26,6 +27,38 @@ header div span {
   vertical-align: middle;
   font-size: 2rem;
 
+/**************HEADER**************/  
+
 }
 
 /**************MIDDLE************/
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  background-color: white ;
+  border-radius: 4px;
+}
+
+/************buttons************/
+
+main div.buttons {
+  padding: 10px 35px;
+  
+}
+
+button {
+  padding: 9px 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: #47ACEB ;
+  border: none;
+}
+
+button.gray {
+  color: darkgray;
+  background-color: #FFFFFF ;
+  border: solid 1px darkgray;
+}
+
+/************buttons************/
